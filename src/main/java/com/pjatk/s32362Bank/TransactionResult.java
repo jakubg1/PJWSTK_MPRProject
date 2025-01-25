@@ -7,11 +7,7 @@ public class TransactionResult {
     public TransactionResult(int status, String message) {
         this.status = status;
         this.message = message;
-        System.out.println("message: " + message);
-    }
-
-    public int getStatus() {
-        return status;
+        System.out.println("message [" + status + "]: " + message);
     }
 
     public String getMessage() {
