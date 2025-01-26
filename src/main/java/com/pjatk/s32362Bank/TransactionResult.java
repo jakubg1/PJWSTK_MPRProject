@@ -1,10 +1,10 @@
 package com.pjatk.s32362Bank;
 
 public class TransactionResult {
-    private final int status;
+    private final TransactionStatus status;
     private final String message;
 
-    public TransactionResult(int status, String message) {
+    public TransactionResult(TransactionStatus status, String message) {
         this.status = status;
         this.message = message;
         System.out.println("message [" + status + "]: " + message);
